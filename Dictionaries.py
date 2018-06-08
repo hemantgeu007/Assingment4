@@ -3,7 +3,7 @@
 '''1'''
 stud_data={}
 
-for i in range(0,3):
+for i in range(0,10):
     Name = input("Enter the student name :").split()
     Marks = input("Enter the Marks :".format(Name)).split()
     Nam_key =  Name[0]
